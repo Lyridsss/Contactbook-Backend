@@ -1,13 +1,9 @@
 exports.create = (req, res) => {
-    res.json({
-        message: "create handler"
-    });
+    res.json({ message: "create handler" });
 }
 
 exports.findAll = (req, res) => {
-    res.json({
-        message: "findAll handler"
-    });
+    res.json({ message: "findAll handler" });
 }
 
 exports.findOne = (req, res) => {
